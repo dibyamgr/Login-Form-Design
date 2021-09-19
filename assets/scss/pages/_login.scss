@@ -1,0 +1,42 @@
+// Login Page SCSS
+.login-wrapper {
+  position: relative;
+  height: 100vh;
+
+  .bg-overlay {
+    position: relative;
+    top: 0;
+    height: 100%;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  .login-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .login-area {
+      width: 80%;
+      box-shadow: $box-shadow;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .login-area__left,
+      .login-area__right {
+        padding: 0;
+      }
+
+      .login-screen {
+        background: $bg-gradient;
+      }
+    }
+  }
+}
