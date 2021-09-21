@@ -11971,7 +11971,8 @@ body {
   height: 125vh !important;
 }
 
-.login-wrapper, .register-wrapper {
+.login-wrapper,
+.register-wrapper {
   position: relative;
   height: 100vh;
   background-size: contain;
@@ -11979,13 +11980,15 @@ body {
   background-repeat: no-repeat;
 }
 
-.login-wrapper .bg-overlay, .register-wrapper .bg-overlay {
+.login-wrapper .bg-overlay,
+.register-wrapper .bg-overlay {
   position: relative;
   top: 0;
   height: 100%;
 }
 
-.login-wrapper .bg-overlay img, .register-wrapper .bg-overlay img {
+.login-wrapper .bg-overlay img,
+.register-wrapper .bg-overlay img {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
@@ -11993,7 +11996,8 @@ body {
   bottom: 0;
 }
 
-.login-wrapper .login-container, .register-wrapper .login-container {
+.login-wrapper .login-container,
+.register-wrapper .login-container {
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12006,7 +12010,8 @@ body {
           justify-content: center;
 }
 
-.login-wrapper .login-container .login-area, .register-wrapper .login-container .login-area {
+.login-wrapper .login-container .login-area,
+.register-wrapper .login-container .login-area {
   width: 80%;
   height: 100%;
   -webkit-box-shadow: 0px 4px 16px #00000017;
@@ -12024,13 +12029,15 @@ body {
 }
 
 .login-wrapper .login-container .login-area .login-area__left,
-.login-wrapper .login-container .login-area .login-area__right, .register-wrapper .login-container .login-area .login-area__left,
+.login-wrapper .login-container .login-area .login-area__right,
+.register-wrapper .login-container .login-area .login-area__left,
 .register-wrapper .login-container .login-area .login-area__right {
   padding: 0;
   height: 100%;
 }
 
-.login-wrapper .login-container .login-area .login-screen, .register-wrapper .login-container .login-area .login-screen {
+.login-wrapper .login-container .login-area .login-screen,
+.register-wrapper .login-container .login-area .login-screen {
   background: conic-gradient(from 180deg at 50% 50%, #FC913A 0deg, rgba(252, 145, 58, 0.76) 360deg);
   text-align: center;
   border-radius: 0 16px 16px 0;
@@ -12038,11 +12045,13 @@ body {
   height: 100%;
 }
 
-.login-wrapper .login-container .login-area .login-screen .logo-wrapper .logo, .register-wrapper .login-container .login-area .login-screen .logo-wrapper .logo {
+.login-wrapper .login-container .login-area .login-screen .logo-wrapper .logo,
+.register-wrapper .login-container .login-area .login-screen .logo-wrapper .logo {
   height: 3rem;
 }
 
-.login-wrapper .login-container .login-area .login-screen .illustration-img, .register-wrapper .login-container .login-area .login-screen .illustration-img {
+.login-wrapper .login-container .login-area .login-screen .illustration-img,
+.register-wrapper .login-container .login-area .login-screen .illustration-img {
   height: 64%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12055,27 +12064,33 @@ body {
           justify-content: center;
 }
 
-.login-wrapper .login-container .login-area .login-screen .illustration-img img, .register-wrapper .login-container .login-area .login-screen .illustration-img img {
+.login-wrapper .login-container .login-area .login-screen .illustration-img img,
+.register-wrapper .login-container .login-area .login-screen .illustration-img img {
   height: 100%;
 }
 
-.login-wrapper .login-container .login-area .login-screen .welcome-text p, .register-wrapper .login-container .login-area .login-screen .welcome-text p {
+.login-wrapper .login-container .login-area .login-screen .welcome-text p,
+.register-wrapper .login-container .login-area .login-screen .welcome-text p {
   font-size: 12px;
 }
 
-.login-wrapper .login-container .login-area .login-form__wrapper, .register-wrapper .login-container .login-area .login-form__wrapper {
+.login-wrapper .login-container .login-area .login-form__wrapper,
+.register-wrapper .login-container .login-area .login-form__wrapper {
   padding: 2rem 3rem;
   text-align: center;
   height: 100%;
 }
 
-.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs, .register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs {
+.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs,
+.register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs {
   margin-top: 2rem;
   font-size: 14px;
   color: #979797;
+  cursor: pointer;
 }
 
-.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group .input-group-text, .register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group .input-group-text {
+.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group .input-group-text,
+.register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group .input-group-text {
   position: absolute;
   z-index: 1;
   background: none;
@@ -12083,11 +12098,13 @@ body {
   top: 10%;
 }
 
-.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group .input-group-text span, .register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group .input-group-text span {
+.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group .input-group-text span,
+.register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group .input-group-text span {
   color: #656565;
 }
 
-.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group input, .register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group input {
+.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group input,
+.register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .input-group input {
   padding-left: 3rem;
   font-size: 14px;
   background: #fafafa;
@@ -12096,7 +12113,21 @@ body {
   z-index: 0;
 }
 
-.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs button, .register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs button {
+.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .toggle-password,
+.register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .toggle-password {
+  right: 12px;
+  position: absolute;
+  top: 11px;
+  font-size: 16px;
+}
+
+.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .toggle-password:hover,
+.register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs .toggle-password:hover {
+  color: #FC913A;
+}
+
+.login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs button,
+.register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs button {
   width: 100%;
   border-radius: 2rem;
   height: 3rem;
@@ -12104,17 +12135,20 @@ body {
   font-size: 14px;
 }
 
-.login-wrapper .login-container .login-area .social-login, .register-wrapper .login-container .login-area .social-login {
+.login-wrapper .login-container .login-area .social-login,
+.register-wrapper .login-container .login-area .social-login {
   position: relative;
 }
 
-.login-wrapper .login-container .login-area .social-login .or-sign-up, .register-wrapper .login-container .login-area .social-login .or-sign-up {
+.login-wrapper .login-container .login-area .social-login .or-sign-up,
+.register-wrapper .login-container .login-area .social-login .or-sign-up {
   margin: 1rem 0;
   position: relative;
   font-size: 12px;
 }
 
-.login-wrapper .login-container .login-area .social-login .or-sign-up::before, .register-wrapper .login-container .login-area .social-login .or-sign-up::before {
+.login-wrapper .login-container .login-area .social-login .or-sign-up::before,
+.register-wrapper .login-container .login-area .social-login .or-sign-up::before {
   content: "";
   display: block;
   height: 1px;
@@ -12125,7 +12159,8 @@ body {
   left: 13%;
 }
 
-.login-wrapper .login-container .login-area .social-login .or-sign-up::after, .register-wrapper .login-container .login-area .social-login .or-sign-up::after {
+.login-wrapper .login-container .login-area .social-login .or-sign-up::after,
+.register-wrapper .login-container .login-area .social-login .or-sign-up::after {
   content: "";
   display: block;
   height: 1px;
@@ -12136,7 +12171,8 @@ body {
   right: 13%;
 }
 
-.login-wrapper .login-container .login-area .social-login ul, .register-wrapper .login-container .login-area .social-login ul {
+.login-wrapper .login-container .login-area .social-login ul,
+.register-wrapper .login-container .login-area .social-login ul {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12148,16 +12184,19 @@ body {
       justify-content: space-around;
 }
 
-.login-wrapper .login-container .login-area .social-login ul li, .register-wrapper .login-container .login-area .social-login ul li {
+.login-wrapper .login-container .login-area .social-login ul li,
+.register-wrapper .login-container .login-area .social-login ul li {
   display: block;
   text-align: center;
 }
 
-.login-wrapper .login-container .login-area .social-login ul li a, .register-wrapper .login-container .login-area .social-login ul li a {
+.login-wrapper .login-container .login-area .social-login ul li a,
+.register-wrapper .login-container .login-area .social-login ul li a {
   text-decoration: none;
 }
 
-.login-wrapper .login-container .login-area .social-login ul li a .img-wrapper, .register-wrapper .login-container .login-area .social-login ul li a .img-wrapper {
+.login-wrapper .login-container .login-area .social-login ul li a .img-wrapper,
+.register-wrapper .login-container .login-area .social-login ul li a .img-wrapper {
   background: #f5f5f5;
   border-radius: 40px;
   height: 2.5rem;
@@ -12174,45 +12213,54 @@ body {
   margin-bottom: 1rem;
 }
 
-.login-wrapper .login-container .login-area .social-login ul li a .img-wrapper img, .register-wrapper .login-container .login-area .social-login ul li a .img-wrapper img {
+.login-wrapper .login-container .login-area .social-login ul li a .img-wrapper img,
+.register-wrapper .login-container .login-area .social-login ul li a .img-wrapper img {
   height: 1.3rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-.login-wrapper .login-container .login-area .social-login ul li a .label, .register-wrapper .login-container .login-area .social-login ul li a .label {
+.login-wrapper .login-container .login-area .social-login ul li a .label,
+.register-wrapper .login-container .login-area .social-login ul li a .label {
   color: #979797;
   font-size: 14px;
 }
 
-.login-wrapper .login-container .login-area .social-login ul li a:hover .img-wrapper img, .register-wrapper .login-container .login-area .social-login ul li a:hover .img-wrapper img {
+.login-wrapper .login-container .login-area .social-login ul li a:hover .img-wrapper img,
+.register-wrapper .login-container .login-area .social-login ul li a:hover .img-wrapper img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.login-wrapper .login-container .login-area .login-link, .register-wrapper .login-container .login-area .login-link {
+.login-wrapper .login-container .login-area .login-link,
+.register-wrapper .login-container .login-area .login-link {
   font-size: 13px;
 }
 
 @media screen and (max-width: 767px) {
-  .login-wrapper .login-container, .register-wrapper .login-container {
+  .login-wrapper .login-container,
+  .register-wrapper .login-container {
     padding: 0;
   }
-  .login-wrapper .login-container .login-area__right, .register-wrapper .login-container .login-area__right {
+  .login-wrapper .login-container .login-area__right,
+  .register-wrapper .login-container .login-area__right {
     display: none;
   }
 }
 
 @media screen and (max-width: 520px) {
-  .login-wrapper .login-container .login-area, .register-wrapper .login-container .login-area {
+  .login-wrapper .login-container .login-area,
+  .register-wrapper .login-container .login-area {
     max-width: 100% !important;
     -webkit-box-shadow: none;
             box-shadow: none;
   }
-  .login-wrapper .login-container .login-area .login-form__wrapper, .register-wrapper .login-container .login-area .login-form__wrapper {
+  .login-wrapper .login-container .login-area .login-form__wrapper,
+  .register-wrapper .login-container .login-area .login-form__wrapper {
     padding: 1rem;
   }
-  .login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs, .register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs {
+  .login-wrapper .login-container .login-area .login-form__wrapper .login-form-bs,
+  .register-wrapper .login-container .login-area .login-form__wrapper .login-form-bs {
     font-size: 12px;
   }
 }

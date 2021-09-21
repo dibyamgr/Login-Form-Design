@@ -25,14 +25,13 @@
                 <div class="col-12 col-md-6 login-area__left">
                     <div class="login-form__wrapper">
                         <h6>Welcome to Criarme</h6>
-                        <form action="" class="login-form-bs needs-validation" novalidate>
+                        <form action="" class="login-form-bs needs-validation" id="validatedForm" novalidate>
                             <!-- Username Input-->
                             <div class="input-group has-validation mb-3">
                                 <span class="input-group-text" id="inputGroupPrepend">
                                     <span class="mdi mdi-account-outline"></span>
                                 </span>
-                                <input type="text" placeholder="Display Name" class="form-control" id="name"
-                                    required>
+                                <input type="text" placeholder="Display Name" class="form-control" id="name" required>
                                 <div class="invalid-feedback">
                                     Please choose a username.
                                 </div>
@@ -43,8 +42,7 @@
                                 <span class="input-group-text" id="inputGroupPrepend">
                                     <span class="mdi mdi-email-outline"></span>
                                 </span>
-                                <input type="text" placeholder="Email" class="form-control" id="email"
-                                    required>
+                                <input type="email" placeholder="Email" class="form-control" id="email" required>
                                 <div class="invalid-feedback">
                                     Please choose an valid email.
                                 </div>
@@ -55,8 +53,9 @@
                                 <span class="input-group-text" id="inputGroupPrepend">
                                     <span class="mdi mdi-lock-outline"></span>
                                 </span>
-                                <input type="password" placeholder="Password" class="form-control"
-                                    id="password" required>
+                                <input type="password" placeholder="Password" class="form-control" id="password" 
+                                    required>
+                                <span id="showPassword" class="toggle-password mdi mdi-eye-off"></span>
                                 <div class="invalid-feedback">
                                     Please enter Password.
                                 </div>
@@ -68,7 +67,8 @@
                                     <span class="mdi mdi-lock-outline"></span>
                                 </span>
                                 <input type="password" placeholder="Confirm Password" class="form-control"
-                                    id="verifypassword" required>
+                                    id="confirm_password" required>
+                                <span class="toggle-password mdi mdi-eye-off"></span>
                                 <div class="invalid-feedback">
                                     Please Confirm Your Password.
                                 </div>
@@ -82,7 +82,7 @@
                                 </label>
                             </div>
 
-                            <button class="btn btn-primary text-white" type="submit">Login</button>
+                            <button class="btn btn-primary text-white sign_in_btn" type="submit">Login</button>
                         </form>
                         <!-- Signup Options -->
                         <div class="social-login">
@@ -147,6 +147,7 @@
 
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
