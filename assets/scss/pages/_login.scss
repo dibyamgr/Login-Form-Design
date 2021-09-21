@@ -59,10 +59,126 @@
           }
         }
 
-        .welcome-text{
-            p{
-                font-size: 12px;
+        .welcome-text {
+          p {
+            font-size: 12px;
+          }
+        }
+      }
+
+      .login-form__wrapper {
+        padding: 2rem 3rem;
+        text-align: center;
+        height: 100%;
+
+        .login-form-bs {
+          margin-top: 2rem;
+          font-size: 14px;
+          color: $light-text-color;
+
+          .input-group {
+            .input-group-text {
+              position: absolute;
+              z-index: 1;
+              background: none;
+              border: none;
+              top: 10%;
+
+              span {
+                color: #656565;
+              }
             }
+
+            input {
+              padding-left: 3rem;
+              font-size: 14px;
+              background: #fafafa;
+              border-radius: 8px !important;
+              height: 3rem;
+              z-index: 0;
+            }
+          }
+
+          button {
+            width: 100%;
+            border-radius: 2rem;
+            height: 3rem;
+            text-transform: uppercase;
+            font-size: 14px;
+          }
+        }
+      }
+
+      .social-login {
+        position: relative;
+        .or-sign-up {
+          margin: 1rem 0;
+          position: relative;
+          font-size: 12px;
+
+          &::before {
+            content: "";
+            display: block;
+            height: 1px;
+            background: #e5e5e5;
+            position: absolute;
+            top: 8px;
+            width: 21%;
+            left: 13%;
+          }
+
+          &::after {
+            content: "";
+            display: block;
+            height: 1px;
+            background: #e5e5e5;
+            position: absolute;
+            top: 8px;
+            width: 21%;
+            right: 13%;
+          }
+        }
+
+        ul {
+          list-style: none;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+
+          li {
+            display: block;
+            text-align: center;
+
+            a {
+              text-decoration: none;
+              .img-wrapper {
+                background: #f5f5f5;
+                border-radius: 40px;
+                height: 2.5rem;
+                width: 2.5rem;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 1rem;
+
+                img {
+                  height: 1.3rem;
+                  transition: all 0.3s ease-in-out;
+                }
+              }
+
+              .label {
+                color: #979797;
+                font-size: 14px;
+              }
+
+              &:hover {
+                .img-wrapper img {
+                  transform: scale(1.1);
+                }
+              }
+            }
+          }
         }
       }
     }

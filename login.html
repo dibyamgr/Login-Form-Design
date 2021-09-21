@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/images/Favicon.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.1.95/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="./assets/scss/style.css">
     <title>Criarme Login</title>
 </head>
@@ -25,7 +24,72 @@
                 <!-- Login Form -->
                 <div class="col-6 login-area__left">
                     <div class="login-form__wrapper">
-                        Login Form
+                        <h6>Welcome to Criarme</h6>
+                        <form action="" class="login-form-bs needs-validation" novalidate>
+                            <!-- Email Input-->
+                            <div class="input-group has-validation mb-3">
+                                <span class="input-group-text" id="inputGroupPrepend">
+                                    <span class="mdi mdi-email-outline"></span>
+                                </span>
+                                <input type="text" placeholder="Email" class="form-control" id="validationCustom01"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+
+                            <!-- Password Input -->
+                            <div class="input-group has-validation mb-3">
+                                <span class="input-group-text" id="inputGroupPrepend">
+                                    <span class="mdi mdi-lock-outline"></span>
+                                </span>
+                                <input type="password" placeholder="Password" class="form-control"
+                                    id="validationCustom02" required>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+
+                            <!-- Checkbox -->
+                            <div class="form-check d-flex mb-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label ms-2" for="flexCheckDefault">
+                                    I agree with Criarme’s <span class="primary-text">term and services.</span>
+                                </label>
+                            </div>
+
+                            <button class="btn btn-primary text-white" type="submit">Login</button>
+                        </form>
+                        <!-- Signup Options -->
+                        <div class="social-login">
+                            <div class="or-sign-up">Or Sign up with</div>
+                            <ul class="mt-5">
+                                <li>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="../assets/images/social-icons/Google.svg" alt="" />
+                                        </div>
+                                        <p class="label">Google</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="../assets/images/social-icons/fb.svg" alt="" />
+                                        </div>
+                                        <p class="label">Facebook</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div class="img-wrapper">
+                                            <img src="../assets/images/social-icons/twitter.svg" alt="" />
+                                        </div>
+                                        <p class="label">Twitter</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <!-- Login Screen -->
@@ -48,9 +112,8 @@
         </div>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
