@@ -2,6 +2,10 @@
 .login-wrapper {
   position: relative;
   height: 100vh;
+  // background: url(/assets/images/Vectors.png);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
 
   .bg-overlay {
     position: relative;
@@ -24,6 +28,7 @@
 
     .login-area {
       width: 80%;
+      height: 100%;
       box-shadow: $box-shadow;
       display: flex;
       align-items: center;
@@ -33,14 +38,15 @@
       .login-area__left,
       .login-area__right {
         padding: 0;
+        height: 100%
       }
 
       .login-screen {
-        height: 82vh;
         background: $bg-gradient;
         text-align: center;
         border-radius: 0 16px 16px 0;
         padding: 2rem;
+        height: 100%;
 
         .logo-wrapper {
           .logo {
@@ -178,6 +184,41 @@
                 }
               }
             }
+          }
+        }
+      }
+
+      .login-link{
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .login-wrapper, .register-wrapper {
+    .login-container {
+      padding: 0;
+      .login-area__right {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .login-wrapper, .register-wrapper {
+    .login-container {
+      .login-area {
+        max-width: 100% !important;
+        box-shadow: none;
+
+        .login-form__wrapper {
+          padding: 1rem;
+
+          .login-form-bs {
+            font-size: 12px;
           }
         }
       }
