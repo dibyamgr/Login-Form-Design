@@ -17,7 +17,7 @@
         <img src="./assets/images/Vectors.png" alt="Vector Background">
     </div>
 
-    <div class="login-wrapper">
+    <div class="register-wrapper">
         <!-- Login Section -->
         <div class="container login-container py-5">
             <div class="row login-area">
@@ -26,15 +26,27 @@
                     <div class="login-form__wrapper">
                         <h6>Welcome to Criarme</h6>
                         <form action="" class="login-form-bs needs-validation" novalidate>
+                            <!-- Username Input-->
+                            <div class="input-group has-validation mb-3">
+                                <span class="input-group-text" id="inputGroupPrepend">
+                                    <span class="mdi mdi-account-outline"></span>
+                                </span>
+                                <input type="text" placeholder="Display Name" class="form-control" id="name"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please choose a username.
+                                </div>
+                            </div>
+
                             <!-- Email Input-->
                             <div class="input-group has-validation mb-3">
                                 <span class="input-group-text" id="inputGroupPrepend">
                                     <span class="mdi mdi-email-outline"></span>
                                 </span>
-                                <input type="text" placeholder="Email" class="form-control" id="validationCustom01"
+                                <input type="text" placeholder="Email" class="form-control" id="email"
                                     required>
                                 <div class="invalid-feedback">
-                                    Please choose a valid email.
+                                    Please choose an valid email.
                                 </div>
                             </div>
 
@@ -44,9 +56,21 @@
                                     <span class="mdi mdi-lock-outline"></span>
                                 </span>
                                 <input type="password" placeholder="Password" class="form-control"
-                                    id="validationCustom02" required>
+                                    id="password" required>
                                 <div class="invalid-feedback">
-                                    Please choose a password.
+                                    Please enter Password.
+                                </div>
+                            </div>
+
+                            <!-- Confirm Password Input -->
+                            <div class="input-group has-validation mb-3">
+                                <span class="input-group-text" id="inputGroupPrepend">
+                                    <span class="mdi mdi-lock-outline"></span>
+                                </span>
+                                <input type="password" placeholder="Confirm Password" class="form-control"
+                                    id="verifypassword" required>
+                                <div class="invalid-feedback">
+                                    Please Confirm Your Password.
                                 </div>
                             </div>
 
@@ -93,9 +117,9 @@
                         <!-- Already have an account? Login Here -->
                         <div class="mt-3">
                             <p class="login-link">
-                                Don't have an account yet?
-                                <a href="register.html" class="primary-text">
-                                    Register Here
+                                Already have an account?
+                                <a href="login.html" class="primary-text">
+                                    Login Here
                                 </a>
                             </p>
                         </div>
